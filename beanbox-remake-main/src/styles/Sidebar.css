@@ -1,0 +1,74 @@
+.sidebar-container {
+    display: flex;
+    height: 100vh;
+    width: 400px;
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 97%;
+    padding: 20px 0 20px 20px;
+    
+    background-color: #ecf0f3;
+    color: #030407;
+    
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10pxx;
+    padding-left: 15px;
+}
+
+.tilecontent {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 1.2em;
+}
+
+.tilecontent svg {
+    color: #dbbbaa;
+}
+
+.tilecontent:hover svg{
+    color: #d1997b;
+}
+
+.tilecontent p {
+    color: #797c7f;
+}
+
+.tilecontent:hover p {
+    color: #030407;
+}
+
+.sidebar-items .active{
+    background-color: #e9dfe7;
+
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.sidebar-items .active svg{
+    color: #d1997b;
+}
+
+.sidebar-items .active p{
+    color: #030407;
+}
+
+a {
+    text-decoration: none;
+}

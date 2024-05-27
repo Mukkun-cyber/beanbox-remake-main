@@ -1,0 +1,49 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start; /* Only take the height it needs. Sheeesh */
+    margin-top: 20px;
+    width: 70%;
+    /* background-color: blue; */
+}
+
+.product-card {
+    height: 150px;
+    margin: 5px;
+}
+
+.summary-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+    background-color: #e9dfe7;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.summary-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-table {
+    width: 100%;
+}
+
+.left-align {
+    text-align: left;
+}
